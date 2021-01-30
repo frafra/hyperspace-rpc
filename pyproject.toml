@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "hyperspace-rpc"
+version = "0.1.0"
+description = ""
+readme = "README.rst"
+license = "MIT"
+authors = ["Francesco Frassinelli <fraph24@gmail.com>"]
+
+[tool.poetry.urls]
+"repository" = "https://github.com/frafra/hyperspace-rpc"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+grpcio = "^1.35.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+grpcio-tools = "^1.35.0"
+
+[tool.poetry.scripts]
+proto = "proto.build:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

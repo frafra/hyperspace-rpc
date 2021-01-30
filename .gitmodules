@@ -1,0 +1,6 @@
+[submodule "proto/frando-hrpc.proto"]
+	path = proto/frando-hrpc.proto
+	url = https://gist.github.com/45a735baa954ba8abae56c76af6fc74b.git
+[submodule "proto/hyperspace-rpc"]
+	path = proto/hyperspace-rpc
+	url = https://github.com/hypercore-protocol/hyperspace-rpc.git
